@@ -1,0 +1,11 @@
+﻿<div class="modal-header">
+    <h3 class="modal-title">{{modal.car.shortDescription}}</h3>
+</div>
+<div class="modal-body text-center">
+    <img width="600" src="{{modal.car.imageUrl}}" alt="{{modal.car.shortDescription}}" />
+    <h3>{{modal.car.price|currency}}</h3>
+    <h4>{{modal.car.fullDescription}}</h4>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="modal.close()">Done</button>
+</div>
